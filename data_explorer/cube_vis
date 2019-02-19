@@ -1,0 +1,5 @@
+a = Import("cube.txt");
+g = AutoGlyph(a);
+cam = AutoCamera(g);
+image = Render(g, cam);
+Display(image);

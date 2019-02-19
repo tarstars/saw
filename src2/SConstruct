@@ -1,0 +1,40 @@
+
+_CFLAGS = ['-O3', '-Wall']
+_CXXFLAGS = _CFLAGS #+ ['--std=c++0x']
+DefaultEnvironment(CFLAGS=_CFLAGS,
+                   CXXFLAGS=_CXXFLAGS)
+
+farn = Library('farn',
+               ['poly.cpp',
+                'util.cpp',
+                ])
+
+Program([
+        'util_test.cpp',
+        ],
+        LIBS=[farn,
+              'boost_unit_test_framework-mt',
+              ]
+        )
+
+Program([
+        'poly_test.cpp',
+        ],
+        LIBS=[farn,
+              'boost_unit_test_framework-mt',
+              ]
+        )
+
+Program([
+        'test_util_test.cpp',
+        ],
+        LIBS=['boost_unit_test_framework-mt',]
+        )
+
+Program([
+        'main.cpp',
+        ],
+        LIBS=[farn,
+              'boost_unit_test_framework-mt',
+              ]
+        )

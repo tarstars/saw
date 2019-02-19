@@ -1,0 +1,4 @@
+#!/usr/bin/gnuplot
+set size square
+set terminal png
+plot "xy.txt"

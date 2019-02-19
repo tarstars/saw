@@ -1,0 +1,10 @@
+#!/bin/sh
+
+for t in txt/*; 
+do 
+	sour=$t
+	dest=png/`basename $t .txt`.png
+	echo ${sour}"->"${dest}
+	cp $sour t.txt
+	./gnup > $dest
+done

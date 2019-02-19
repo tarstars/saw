@@ -1,0 +1,11 @@
+object 1 class array type float rank 1 shape 3 items 8 data follows
+0 0 0
+0 0 1
+0 1 0
+1 0 0 
+1 1 0
+1 0 1
+0 1 1
+1 1 1
+object "my scalars" class field
+component "positions" value 1

@@ -1,0 +1,20 @@
+utils.cpp:
+
+	//cristoffel matrix by coefficients and wave normal vector
+	Mat3 n2crist(const Coeff& m, const Vec3 &n)
+
+	//determinant as polynom by g
+	CPoly3 mat2poly(const Mat3& m)
+
+	//eigenvalues and polarizations by wave normal vector
+	vector<CEigElement> vel_polar(const Vec3 &n)
+
+	//write one slice into the file
+	void one_stage(double go,ostream& dest3d)
+
+	//surface waves. value of determinant by n1,n2 and g
+	poly_type::value_type
+	det_val(long double  n1, long double n2, long double g)
+
+	//six degree n3 polynom by n1, n2 and g
+	Poly n1n2g_to_poly(long double n1, long double n2, long double g)

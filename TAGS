@@ -1,0 +1,137 @@
+
+mat3.cpp,100
+Mat3::Mat3(8,77
+Mat3::Mat3(15,176
+Mat3::row(31,624
+operator*(37,730
+ostream& operator<<(50,905
+
+poly3.cpp,77
+CPoly3::find_root(11,121
+CPoly3::find_two_root(28,371
+Vec3 polariz(45,699
+
+poly.cpp,258
+operator<<(8,87
+Poly ar2pol(16,232
+Poly::operator/(26,368
+Poly::operator*(49,732
+Poly::operator+(68,1042
+Poly::operator-(90,1432
+Poly::fst(112,1808
+Poly::operator()(Poly::operator()131,2098
+T laguerr(142,2308
+all_roots(193,3211
+int main(220,3684
+
+slowness.cpp,78
+roots_of_3(24,369
+vector<double> dist(54,749
+d3(81,1218
+int main(119,2092
+
+tensor.cpp,215
+Tensor::Tensor(10,138
+Tensor::Tensor(24,326
+Tensor::crist(52,976
+operator<<(67,1233
+Tensor::rotate(91,1566
+Tensor::rotate_bidir(117,2127
+Tensor::test(144,2709
+int delta(159,3095
+Tensor::poly_by_n3(166,3158
+
+utils.cpp,153
+Mat3 n2crist(17,236
+CPoly3 mat2poly(43,1001
+vector<CEigElement> vel_polar(57,1406
+void one_stage(86,2009
+void generate3d(126,2893
+det_val(134,3045
+
+vec3.cpp,167
+Vec3 operator&(8,79
+LD operator*(21,375
+Vec3 operator*(31,513
+Vec3 operator*(36,637
+Vec3 operator+(38,692
+Vec3::theta_phi2vec(49,846
+ostream& operator<<(54,971
+
+veccomp.cpp,196
+VecComp3::abs(8,65
+VecComp3 operator&(13,149
+poly_type::value_type operator*(20,331
+VecComp3 operator*(25,458
+VecComp3 operator*(30,582
+VecComp3 operator+(32,664
+ostream& operator<<(37,788
+
+vtst.cpp,15
+int main(8,80
+
+coeff.h,112
+#define _COEFF_2,16
+class Coeff4,33
+ Coeff(Coeff::Coeff9,101
+    paratellurite(Coeff::paratellurite13,283
+
+eigelement.h,148
+#define _EIGELEMENT_2,21
+class CEigElement8,82
+    CEigElement(CEigElement::CEigElement18,183
+    bool operator<(CEigElement::operator<25,497
+
+mat3.h,36
+#define _MAT3_2,15
+class Mat39,84
+
+mat3poly.h,81
+#define _MAT3POLY_2,19
+class Mat3poly9,98
+ Mat3poly(Mat3poly::Mat3poly13,149
+
+poly3.h,143
+#define _POLY3_2,16
+class CPoly38,66
+    CPoly3(CPoly3::CPoly312,112
+    CD val(CPoly3::val13,209
+    CD der_val(CPoly3::der_val14,275
+
+poly.h,167
+#define _POLY_2,15
+class Poly10,109
+  Poly(Poly::Poly15,149
+ Poly(Poly::Poly17,161
+ Poly(Poly::Poly18,214
+ Poly(Poly::Poly19,305
+  int deg(Poly::deg30,722
+
+tensor.h,42
+#define _TENSOR_2,17
+class Tensor13,126
+
+types.h,126
+#define _TYPES_2,16
+typedef long double LD;7,71
+typedef std::complex<LD> CD;9,96
+typedef std::vector<CD> poly_type;11,126
+
+utils.h,21
+#define _UTILS_2,16
+
+vec3.h,129
+#define _VEC3_2,15
+class Vec38,89
+  explicit Vec3(Vec3::Vec313,136
+  LD abs(Vec3::abs21,258
+  Vec3 norm(Vec3::norm28,376
+
+veccomp.h,193
+#define _VECCOMP_2,18
+class VecComp38,78
+  explicit VecComp3(VecComp3::VecComp312,136
+  VecComp3 norm(VecComp3::norm16,289
+  poly_type::value_type operator()(VecComp3::operator()22,400
+
+mat3poly.cpp,0
